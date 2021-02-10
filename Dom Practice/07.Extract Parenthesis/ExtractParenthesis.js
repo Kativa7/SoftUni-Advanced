@@ -6,7 +6,7 @@ let match = regex.exec(text);
 let result = [];
 while(match){
     result.push(match[1]);
-    regex.exec(text);
+    match = regex.exec(text);
 }
 
  return result.join('; ');
