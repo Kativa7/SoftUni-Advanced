@@ -16,13 +16,11 @@ function solve() {
       let deleteBtn = document.createElement('button');
       deleteBtn.classList.add("btn");
       deleteBtn.classList.add("delete");
-      //deleteBtn.setAttribute('class','btn delete');
       deleteBtn.textContent = 'Delete';
       
       let archiveBtn = document.createElement('button');
       archiveBtn.classList.add("btn");
       archiveBtn.classList.add("archive");
-      //archiveBtn.setAttribute('class','btn archive');
       archiveBtn.textContent = 'Archive';
      
       let divButton = document.createElement('div');
